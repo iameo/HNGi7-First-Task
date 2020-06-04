@@ -1,0 +1,25 @@
+{
+  "name": "hngi7-first-task",
+  "version": "1.0.0",
+  "description": "\"bleh\"",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iameo/HNGi7-First-Task.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iameo/HNGi7-First-Task/issues"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "homepage": "https://github.com/iameo/HNGi7-First-Task#readme"
+}

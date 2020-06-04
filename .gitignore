@@ -4,5 +4,8 @@
 **/tempCodeRunnerFile*
 .vscode/*
 .vscode
-env
 vendor/
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
