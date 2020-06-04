@@ -70,7 +70,7 @@ if (isset($_GET['json'])) {
             $name = "";
         }
         if (isset($matches3[0])) {
-            $language = substr($matches3[0], 0, -3);
+            $language = trim(substr($matches3[0], 0, -3));
         } else {
             $language = "";
         }
@@ -216,7 +216,7 @@ if (isset($_GET['json'])) {
                                     $name = "";
                                 }
                                 if (isset($matches3[0])) {
-                                    $language = substr($matches3[0], 0, -3);
+                                    $language = trim(substr($matches3[0], 0, -3));
                                 } else {
                                     $language = "";
                                 }
