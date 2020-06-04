@@ -2,10 +2,9 @@
 .DS_Store
 
 **/tempCodeRunnerFile*
+
 .vscode/*
 .vscode
-vendor/
-/node_modules
-npm-debug.log
-.DS_Store
-/*.env
+
+debug.log
+
