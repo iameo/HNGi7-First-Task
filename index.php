@@ -56,7 +56,7 @@ for ($counter = 0; $counter < count($nfiles); $counter++) {
     }
 
 
-    preg_match("/ [a-zA-Z]+ [a-zA-Z]+ with/", $userString, $matches);
+    preg_match("/ [a-zA-Z\-]+ [a-zA-Z\-]+ with/", $userString, $matches);
     preg_match("/ HNG-[0-9]+ using/", $userString, $matches2);
 	preg_match("/ [a-zA-Z]+ for/", $userString, $matches3);
 	preg_match('/\s?(([\w+\.\-]+)@([\w+\.\-]+)\.([a-zA-Z]{2,5}))/i', trim($email) , $matches4);
@@ -88,7 +88,7 @@ for ($counter = 0; $counter < count($nfiles); $counter++) {
 
 
 	
-    if (preg_match("/^Hello World, this is [A-Za-z]+([\ A-Za-z]+)* with HNGi7 ID HNG-[0-9]+ using [a-zA-Z]+ for stage 2 task$/", $userString)){
+    if (preg_match("/^Hello World, this is [A-Za-z\-]+([\ A-Za-z\-]+)* with HNGi7 ID HNG-[0-9]+ using [a-zA-Z]+ for stage 2 task$/", $userString)){
 
         $obj = [
             "file" => $file,
